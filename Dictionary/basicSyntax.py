@@ -49,3 +49,5 @@ student.clear()
 for k, v in student.items():
     print(f"key : {k}, value : {v}")
 
+# it's all about dictionary how add , remove , update data in dictonary also clear entire dictionary as well. 
+

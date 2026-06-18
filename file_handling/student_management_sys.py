@@ -49,5 +49,5 @@ while True:
         print(f"Total Marks : {data["total_marks"]}")
         print(f"Average Marks : {data["average_marks"]}")
         print(f"Grade : {data["grade"]}")
-        print("\n-----------------------------")
+        print("-----------------------------")
     break

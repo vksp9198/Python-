@@ -55,7 +55,7 @@ def add_product():
     product_price = int(input("Enter Product Price = "))
     product_stock= int(input("Enter Product Quantity = "))
     
-    # add data 
+    # add data
     store[product_id] = {
         "name" : product_name,
         "price" : product_price,
