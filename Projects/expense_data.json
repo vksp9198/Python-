@@ -1,0 +1,17 @@
+{
+    "travel": {
+        "Amount": 900.0
+    },
+    "stationary": {
+        "Amount": 599.0
+    },
+    "food ": {
+        "Amount": 9000.0
+    },
+    "Education ": {
+        "Amount": 39000.0
+    },
+    "Electricity bill": {
+        "Amount": 798.0
+    }
+}
