@@ -4,8 +4,7 @@ def load_data():
         with open("user_data.json", "r") as file:
             user_data = json.load(file)
             print(user_data)
-            return user_data
-            
+            return user_data        
     except FileNotFoundError:
         print("File not found! , Create new one.")
         return {}
@@ -20,8 +19,6 @@ def validate_password(pwd):
     if not any(char.isdigit() for char in pwd):
         return False
     return True
-    
-
 
 def user_register():
     users = load_data()
